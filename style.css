@@ -157,4 +157,42 @@ body {
   left: 20px;
   color: var(--text-primary);
   font-size: 16px;
+}/* --- Section Kitsu --- */
+.kitsu-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  gap: 40px;
+}
+
+.kitsu-text {
+  max-width: 480px;
+}
+
+.kitsu-icon-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.kitsu-subtitle {
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.kitsu-text p {
+  color: var(--text-secondary);
+  margin-top: 16px;
+  line-height: 1.6;
+}
+
+.kitsu-image img {
+  max-width: 280px;
+  width: 100%;
 }
