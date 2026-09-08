@@ -1,0 +1,122 @@
+/* --- Couleurs et réglages généraux du site --- */
+:root {
+  --bg: #0A0E17;
+  --accent: #22C55E;
+  --text-primary: #FFFFFF;
+  --text-secondary: #94A3B8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --- Barre de navigation --- */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-text .name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.logo-text .tag {
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: var(--text-primary);
+}
+
+.btn-join {
+  background-color: var(--accent);
+  color: #0A0E17;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* --- Section héro --- */
+.hero {
+  text-align: center;
+  padding: 100px 20px 120px;
+}
+
+.hero-icon {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero p {
+  color: var(--text-secondary);
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.btn-main {
+  display: inline-block;
+  margin-top: 32px;
+  background-color: var(--accent);
+  color: #0A0E17;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 16px;
+}
