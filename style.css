@@ -195,4 +195,30 @@ body {
 .kitsu-image img {
   max-width: 280px;
   width: 100%;
+}/* --- Liens secondaires (Connexion, Discord) à côté du bouton principal --- */
+.nav-extra {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.icon-link:hover {
+  color: var(--text-primary);
+}
+
+.icon-link svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
 }
