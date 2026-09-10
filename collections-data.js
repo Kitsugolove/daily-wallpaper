@@ -19,7 +19,7 @@ const collections = [
   {
     titre: "Avions & Armées",
     description: "Découvrez une sélection de fonds d'écran dédiés à l'aviation militaire.",
-    image: image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600",
+    image: image: image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600",
     visible: true
   },
   {
