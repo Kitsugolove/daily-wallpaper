@@ -355,6 +355,8 @@ body {
 }/* --- Menu déroulant "Plus" --- */
 .nav-dropdown {
   position: relative;
+  padding-bottom: 14px;
+  margin-bottom: -14px;
 }
 
 .nav-dropdown > a {
@@ -367,7 +369,6 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  margin-top: 12px;
   background: #131822;
   border: 1px solid #1f2530;
   border-radius: 10px;
@@ -377,7 +378,6 @@ body {
   flex-direction: column;
   gap: 2px;
 }
-
 .nav-dropdown:hover .dropdown-menu {
   display: flex;
 }
