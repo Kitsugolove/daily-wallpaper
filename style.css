@@ -352,4 +352,45 @@ body {
 @media (max-width: 600px) {
   .duel-versus { flex-direction: column; }
   .duel-vs { transform: rotate(90deg); }
+}/* --- Menu déroulant "Plus" --- */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown > a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 12px;
+  background: #131822;
+  border: 1px solid #1f2530;
+  border-radius: 10px;
+  padding: 8px;
+  min-width: 160px;
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.dropdown-menu a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.dropdown-menu a:hover {
+  background: #1a2030;
+  color: var(--text-primary);
 }
