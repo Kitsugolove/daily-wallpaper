@@ -226,4 +226,55 @@ body {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
+}/* --- Section "Pourquoi nous rejoindre ?" --- */
+.why-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.why-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 48px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.why-card {
+  background: #131822;
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: left;
+}
+
+.why-icon {
+  font-size: 28px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.why-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.why-card p {
+  color: var(--text-secondary);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+/* Sur petit écran, les 4 cartes passent en 2 colonnes puis 1 */
+@media (max-width: 900px) {
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 500px) {
+  .why-grid { grid-template-columns: 1fr; }
 }
